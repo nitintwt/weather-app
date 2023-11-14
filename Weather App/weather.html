@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css" />
+  </head>
+  <body>
+    <article class="card">
+      <section class="search">
+        <input type="text" placeholder="Enter city name" spellcheck="false" />
+        <button><img src="img/search_FILL0_wght400_GRAD0_opsz24.png" alt="Search icon" /></button>
+      </section>
+      <section class="error">
+        <p>Invalid city name</p>
+      </section>
+      <section class="weather">
+        <h1 class="temp"></h1>
+        <h2 class="city"></h2>
+        <div class="details">
+          <div class="col">
+              <p class="humidity"></p>
+              <p>Humidity</p>
+          </div>
+          <div class="col">
+              <p class="wind"></p>
+              <p>Wind Speed</p>
+          </div>
+        </div>
+      </section>
+    </article>
+    <script src="weather.js"></script>
+  </body>
+</html>
+
